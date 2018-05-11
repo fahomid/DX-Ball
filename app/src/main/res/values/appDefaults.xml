@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App setting data -->
+    <integer name="ballControllerWidth">280</integer>
+    <integer name="ballControllerHeight">30</integer>
+    <integer name="ballRadius">30</integer>
+    <integer name="ballMovingSpeed">20</integer>
+    <integer name="ballMovingAngel">45</integer>
+    <integer name="brickWidth">100</integer>
+    <integer name="brickHeight">60</integer>
+    <integer name="gameScore">0</integer>
+    <integer name="gameLevel">0</integer>
+    <integer name="topDataPanelHeight">50</integer>
+    <integer name="lifeCount">3</integer>
+    <integer name="numberOfLevel">5</integer>
+    <integer name="bricksPerLevel">25</integer>
+
+    <bool name="startingFirstTime">true</bool>
+    <bool name="ballControllerMoving">false</bool>
+    <bool name="isDeath">false</bool>
+    <bool name="startMovingBall">false</bool>
+    <bool name="levelUp">false</bool>
+
+    <!-- App object colors -->
+    <color name="ballColor">#FFFF00</color>
+    <color name="ballControllerColor">#0000FF</color>
+</resources>
